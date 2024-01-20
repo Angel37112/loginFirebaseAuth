@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('imagenes/fondoLogin.png') no-repeat;
+    background: url('https://i.pinimg.com/originals/54/a5/26/54a526c47fcddda901bc1a7f7af4395c.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -22,7 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('imagenes/fondoRegistro.jpg') no-repeat;
+    background: url('https://e1.pxfuel.com/desktop-wallpaper/822/992/desktop-wallpaper-3840x2160-street-night-wet-neon-city-u-16-9-backgrounds-neon-city.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -33,7 +33,7 @@ body{
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #0000;
+    color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -59,12 +59,12 @@ body{
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
     font-size: 16px;
-    color: #0000;
+    color: #fff;
     padding: 20px 45px 20px 20px;
 }
 
 .input-box input::placeholder{
-    color: #0000;
+    color: #fff;
 }
 
 .input-box i{
@@ -83,12 +83,12 @@ body{
 }
 
 .remember-forgot label input{
-    accent-color: #0000;
+    accent-color: #fff;
     margin-right: 3px;
 }
 
 .remember-forgot a{
-    color: #0000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ body{
 .wrapper .btn{
     width: 100%;
     height: 45px;
-    background: #0000;
+    background: #fff;
     border: none;
     outline: none;
     border-radius: 40px;
@@ -117,7 +117,7 @@ body{
 }
 
 .register-link p a {
-    color: #0000;
+    color: #fff;
     text-decoration: none;
     font-weight: 600;
 }
