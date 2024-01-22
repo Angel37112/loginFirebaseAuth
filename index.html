@@ -25,7 +25,7 @@
         <a href="#">¿Olvidaste tu contraseña?</a>
       </div>
 
-      <button type="button" class="btn" onclick="loginUser()">Login</button>
+      <button type="submit" class="btn">Login</button>
 
       <div class="register-link">
         <p>¿No tienes cuenta? <a href="registro.html">Registrarse</a></p>
@@ -35,21 +35,21 @@
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script> -->
   
     <!-- Firebase -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script> -->
   
     <!-- TODO: Add SDKs for Firebase products that you want to use
     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script> -->
 
-  <script>
+  <!-- <script>
     // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
       const firebaseConfig = {
@@ -66,8 +66,10 @@
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();
 
-  </script>
+      onclick="loginUser()"
+
+  </script> -->
     
-  <script src="/js/app.js"></script>
+  <script src="/js/app.js" type="module"></script>
 </body>
 </html>
