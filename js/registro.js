@@ -12,6 +12,8 @@ registroForm.addEventListener("submit", async(e) => {
     try{
         const userCredentials = await createUserWithEmailAndPassword(auth, email, password);
         console.log("Bienvenido "+ userCredentials.user.email);
+        localStorage.setItem('isLoggedIn', 'true');
+        window.location.href = "../entrada.html";
     }
     catch(error){
         if(error.code === 'auth/email-already-in-use'){
@@ -25,3 +27,10 @@ registroForm.addEventListener("submit", async(e) => {
         }
     }
 })
+
+document.addEventListener('DOMContentLoaded', function () {
+    const isLoggedIn = localStorage.getItem('isLoggedIn');
+    if (isLoggedIn === 'true') {
+        window.location.href = 'entrada.html';
+    }
+});
